@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background-color: rgb(74, 149, 241);
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+}
+.main {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70vh;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+  }
+.bottom {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(74, 149, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.bases {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60%;
+   
+}
+
+.basesimage {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.basesimage img {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: auto;
+    height: 95%;
+
+}
+
+
+
+
+
+.basesinfo {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+
+
+
+
+.baseslink {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15%;
+}
+
+.basetownhall {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+}
+
+.baserating {
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+}
+
+.button {
+    width: 95%;
+    height: 70%;
+    background: rgb(42, 212, 99);
+    border: none;
+    border-radius: 1vh;
+    font-weight: 600;
+
+
+} 
+.button:hover {
+background: rgb(138, 236, 46);
+
+} 
