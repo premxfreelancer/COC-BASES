@@ -1,1 +1,1 @@
-cocbases.netlify.app
+https://cocbases.netlify.app
